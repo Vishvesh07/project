@@ -1,0 +1,88 @@
+.container {
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: linear-gradient(to right, #211b1b, #b61414);
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+.custom-button1 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.custom-button1,
+.custom-button2 {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    margin: 0;
+    padding: 20px;
+    color:white;
+}
+
+.custom-button2:hover {
+    background-color: rgb(255, 98, 0);
+}
+
+.custom-button1:hover {
+    background-color: rgb(249, 54, 0);
+}
+
+body {
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-bottom: 10px; 
+    padding-top: 12px;
+    background: linear-gradient(to bottom,#ff3030ee,black);
+}
+
+footer {
+    background-color: #915353c3;
+    color: #ffffff;
+    padding: 10px; 
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body-content {
+    background: linear-gradient(to bottom, #000000, rgb(62, 16, 16));
+    padding: 20px;
+    color: rgb(239, 239, 249);
+}
+
+footer span {
+    margin-right: 490px; 
+}
+a{
+    text-decoration: none;
+    color:rgba(243, 211, 1, 0.866);
+
+}
+a:hover{
+    color:rgb(254, 254, 254)
+}
+.container2{
+    border-color: #000000;
+    border:1px;
+    background-color: rgba(72, 27, 15, 0.67);
+    padding:20px;
+    margin:10px;
+}
+.hover-image {
+    transition: height 0.3s ; 
+}
+.hover-image:hover {
+    height:220px ;
+}
